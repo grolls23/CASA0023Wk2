@@ -1,20 +1,25 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
+title: "Visible Infrared Imaging Radiometer Suite"
+subtitle: "NASA's Newest Light Emissions Sensor"
 author: "Gavin Rolls"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+institute: "Centre for Adavnced Spatial Analysis"
+date: "16/01/2024"
 output:
   xaringan::moon_reader:
+    css: ["style_mono_light.css"]
     lib_dir: libs
     nature:
-      highlightStyle: github
+      highlightStyle: solarize
       highlightLines: true
       countIncrementalSlides: false
+  
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
 ```{r setup, include=FALSE}
+library(xaringanthemer)
 options(htmltools.dir.version = FALSE)
+style_mono_light(base_color = "#23395b")
+export_xaringan_themer("style_mono_light.css")
 ```
+
+???
