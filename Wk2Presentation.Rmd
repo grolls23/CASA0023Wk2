@@ -1,12 +1,11 @@
 ---
-title: "Visible Infrared Imaging Radiometer Suite"
+title: "Visible Infrared Imaging Radiometer Suite (VIIRS)"
 subtitle: "NASA's Newest Light Emissions Sensor"
 author: "Gavin Rolls"
-institute: "Centre for Adavnced Spatial Analysis"
-date: "16/01/2024"
+date: "16 January 2024"
 output:
   xaringan::moon_reader:
-    css: ["style_mono_light.css"]
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: solarize
@@ -16,10 +15,69 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(xaringanthemer)
 options(htmltools.dir.version = FALSE)
-style_mono_light(base_color = "#23395b")
-export_xaringan_themer("style_mono_light.css")
 ```
 
-???
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# library(xaringanthemer)
+# style_mono_light(
+#   base_color = "#23395b",
+#   header_font_google = google_font("Josefin Sans"),
+#   text_font_google   = google_font("Montserrat", "300", "300i"),
+ #  code_font_google   = google_font("Fira Mono")
+# )
+```
+
+# What is VIIRS?
+
+.pull-left[
+* Visual Infrared Imaging Radiometer Suite
+* Owned and operated by NASA and NOAA (National Oceanic and Atmospheric Administration)
+* Collects Environmental Data Records (NOAA, 2013)
+
+* Instrument is on two Satellites 
+  * Suomi NPP - Launched 28 October 2011 from Vandenberg Air Force Base
+  * NOAA-20 - Launched 10 November 2017 from Vandenberg Air Force Base
+  
+* Monitors a number of phenomena including:
+  * Light Emissions (Earth at Night)
+  * Ocean Colour and Aerosols
+  * Cloud Particle Size and Cloud Cover
+  * Fires
+]
+
+.pull-right[
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/Night.jpg')
+```
+.center[Composite of Earth at Night (NOAA)]
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/Suomi.png')
+```
+.center[Suomi NPP Satellite (NASA)]
+]
+---
+
+# Specifications
+
+* Spectral Resolution: Monitors 20 wavelength bands in the visual and infrared portions of the electromagnetic spectrum
+* Temporal Resolution: Entire surface of the earth is captured twice a day
+* Spatial Resolution
+  * 375m for Ocean Colour/Aerosol Bands
+  * 500m for other bands
+  
+(USGS)
+
+.pull-right[
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/Bands.png')
+```
+.center[EM Reflective Bands of VIIRS (NOAA, 2013)]
+
+---
+
+# Applications of VIIRS
+
+---
+
+# Reflection
