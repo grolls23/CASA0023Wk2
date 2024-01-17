@@ -109,6 +109,11 @@ options(htmltools.dir.version = FALSE)
   * Twice daily visits to areas of interest is useful for mapping quickly evolving fires
   * VIIRS assessments of long term fires in California is consistent with airborne measurement
 
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/Fires2020.jpg')
+```
+
+.center[Cumulative Fire Intensity for 2020 (NASA)]
 ]
 
 .pull-right[
@@ -117,7 +122,7 @@ options(htmltools.dir.version = FALSE)
   * Light Emissions data as a proxy for economic activity (Mellander et al., 2015)
   * Day-Night Band (0.5 - 0.5µm) designed to capture lights from Earth's surface at night
   * Is often used to measure urban development (Florida, 2008) but can it be applied to estimate the extent of economic activity?
-
+* 
 ]
 
 ---
