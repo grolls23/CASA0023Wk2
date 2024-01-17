@@ -1,6 +1,6 @@
 ---
 title: "Visible Infrared Imaging Radiometer Suite (VIIRS)"
-subtitle: "NASA's Newest Light Emissions Sensor"
+subtitle: "NASA's Newest Light Emissions & Environmental Sensor"
 author: "Gavin Rolls"
 date: "16 January 2024"
 output:
@@ -31,7 +31,7 @@ options(htmltools.dir.version = FALSE)
 # What is VIIRS?
 
 .pull-left[
-* Visual Infrared Imaging Radiometer Suite
+* **Visual Infrared Imaging Radiometer Suite**
 * Owned and operated by NASA and NOAA (National Oceanic and Atmospheric Administration)
 * Collects Environmental Data Records (NOAA, 2013)
 
@@ -50,33 +50,58 @@ options(htmltools.dir.version = FALSE)
 ```{r, echo = FALSE, out.width='90%', fig.align='center'}
   knitr::include_graphics('img/Night.jpg')
 ```
+
 .center[Composite of Earth at Night (NOAA)]
+
 ```{r, echo = FALSE, out.width='90%', fig.align='center'}
   knitr::include_graphics('img/Suomi.png')
 ```
+
 .center[Suomi NPP Satellite (NASA)]
+
 ]
 ---
 
 # Specifications
 
-* Spectral Resolution: Monitors 20 wavelength bands in the visual and infrared portions of the electromagnetic spectrum
-* Temporal Resolution: Entire surface of the earth is captured twice a day
-* Spatial Resolution
+.pull-left[
+* **Spectral Resolution**: 
+  * Monitors 20 wavelength bands in the visual and infrared portions of the electromagnetic spectrum
+  * Frequency range is 0.4 - 12.49µm
+  * Most bands are visible or near infrared
+
+* **Temporal Resolution**: 
+  * Entire surface of the earth is captured twice a day between the two satellites.
+  * Generated products range from daily to yearly.
+
+* **Spatial Resolution**:
   * 375m for Ocean Colour/Aerosol Bands
-  * 500m for other bands
-  
+  * 750m for other bands
+  * Products also resampled to 500m, 1000m, and 5600m for use across larger areas
+
 (USGS)
+]
 
 .pull-right[
 ```{r, echo = FALSE, out.width='90%', fig.align='center'}
   knitr::include_graphics('img/Bands.png')
 ```
-.center[EM Reflective Bands of VIIRS (NOAA, 2013)]
+
+.center[EM Reflective Bands of VIIRS (NOAA, 2013)\n]
+
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/Thermalbands.png')
+```
+
+.center[EM Thermal Bands of VIIRS (NOAA, 2013)]
+
+]
 
 ---
 
 # Applications of VIIRS
+
+
 
 ---
 
