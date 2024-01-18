@@ -162,4 +162,6 @@ Image from `r Citet(myBib, "nasaEOSDISWorldview")`
 
 # References
 
-
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 1, end = 9)
+```
