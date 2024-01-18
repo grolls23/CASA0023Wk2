@@ -119,15 +119,28 @@ options(htmltools.dir.version = FALSE)
 .pull-right[
 
 **Light Emissions**: 
-  * Light Emissions data as a proxy for economic activity (Mellander et al., 2015)
+  * Light Emissions data as a proxy for economic activity? (Mellander et al., 2015)
   * Day-Night Band (0.5 - 0.5µm) designed to capture lights from Earth's surface at night
   * Is often used to measure urban development (Florida, 2008) but can it be applied to estimate the extent of economic activity?
-* 
+* Mellander et al. attempt to calculate local economic activity in Sweden using light emissions data
+  * Find it is a better indicator of urbanisation than economic activity, for which it is more weakly correlated.
+
+* Better tool for estimating population than any daytime datasets (Mellander et al)
 ]
 
 ---
+class: title-slide, top, left, inverse
+background-image: url('img/Lights.png')
+background-size: cover
+text-color: red
 
 # Reflection
+
+### Most of my previous experience with VIIRS was exclusively working with the light emissions band on board
+
+### The high spectral and temporal resolution with a specific focus on environmental variables makes VIIRS an incredible sensing tool which, in my opinion, often flies under the radar in comparison to the more popular Landsat and Sentinel platforms
+
+### I'd be particularly interested in seeing how VIIRS can be deployed as a marine monitoring tool and investigate how its ocean colour and sea surface temperature capabilities could be used in climate studies.
 
 ---
 
