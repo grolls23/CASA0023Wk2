@@ -146,7 +146,6 @@ library(knitcitations)
 class: title-slide, top, left, inverse
 background-image: url('img/Lights.png')
 background-size: cover
-text-color: red
 
 # Reflection
 
